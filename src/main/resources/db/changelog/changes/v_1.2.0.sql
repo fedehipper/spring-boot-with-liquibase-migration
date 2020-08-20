@@ -6,4 +6,4 @@ CREATE TABLE materia (
     codigo VARCHAR,
     nombre VARCHAR
 );
---rollback drop table persona;
+--rollback drop table materia;
