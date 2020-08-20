@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.liquibase.repository.MateriaRepository;
 import com.liquibase.vo.MateriaVo;
-import static org.assertj.core.api.Java6Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class MateriaServiceTest extends DemoLiquibaseMigrationApplicationTests {
 
